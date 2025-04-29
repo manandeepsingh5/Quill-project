@@ -1,63 +1,107 @@
-h1,h2{
-    font-weight: 700;
-    text-align: center;
-    line-height: 1.2;
-    font-size: 40px;
-   
-    color: blueviolet;
-}
-h2{
-    font-weight: 700;
-    text-align: center;
-    line-height: 1.2;
-   
-   
-}
-h3{
 
-    text-align: center;
-    line-height: 1.2;
+/* -------------------GLOBAL STYLES------------ */
+
+body {
+  background-color: lightblue;
+  font-family: poppins, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: black;
+  border-top: red;
 }
-p{
-    font-weight: 400;
-    text-align: justify;
-    line-height: 1.5;
-    letter-spacing:  0px;
-    font-size: 32px;
+
+h1,h2,h3,h4,h5 {
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -2px;
+  color: rgb(55, 52, 57);
 }
-a{
-    font-weight: 400;
-    text-decoration: none   ;
+
+p {
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  font-size: 32px;
+}
+h1{
     text-align: center;
-    /*text align will not affect it as a is an inline elements (it do not take the full
+    font-size: 62px ;
+    
+}
+a {
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  /*text align will not affect it as a is an inline elements (it do not take the full
      width of the page-only the required width*/
 }
-ul{
-    list-style: none;
+/* ul {
+  list-style:circle;
+}
+#green-text {
+  color: greenyellow;
+}
+.abc {
+  color: chocolate;
+}
+.xyz {
+  font-weight: 900;
+  color: darkmagenta;
+} */
+/* a:hover {
+  color: yellow;
+}
+a:visited {
+  color: hotpink;
+   */
+
+/* --------------LIST STYLING----------------- */
+/* li:first-child {
+  color: darkred;
+  
+}
+li:last-child {
+  color: green;
+}
+li:nth-child(2n) {
+  color: rgb(124, 26, 41);
+} */
+
+/* -------------SECTIONS------------------ */
+.hero-container{
+    background-color: rgb(31, 63, 45);
+    font-size: 70px;
+    color: rgb(179, 67, 67);
+    font-weight: 900;
+    text-align: center;
+}
+
+.cta-section{
+    text-align: center;
 
 }
-#green-text{
-    color: greenyellow;
+
+.footer{
+    text-align: center;
+
 }
-.abc{
+/* -------------UNIVERSAL SELECTOR ---------*/
+/* -----PSUEDO ELEMENT--------------- */
+
+p::first-line{
+    text-transform: uppercase;
     color: chocolate;
+   
+    
 }
-.xyz{
+p::selection{
+    color: rgb(0, 255, 68);
     font-weight: 900;
-    color: darkmagenta;
 }
-a:hover{
-    color: yellow;
-}
-a:visited{
-    color:hotpink;
-}
-li:first-child{
-    color: darkred;
-}
-li:last-child{
-    color: green;
-}
-li:nth-child(2n){
-    color: lightpink;
+p::after{
+    content: "manandeep";
+    color: darkslateblue;
+    
 }

@@ -1,0 +1,101 @@
+/* h1 +  p{
+    background-color: aqua;
+    font-size: 70px;
+    ADJACENT SIBLING SELECTOR
+    /* this will select the first p after the h1 class */
+
+/* }
+h1 ~  p{
+    background-color: aqua;
+    font-size: 70px;
+    GENARL SIBLING SSELECTOR
+    /* this will select all p after the h1 class */
+
+
+/* .article p{
+    background-color: lightblue;
+    font-size: 70px;
+   
+    DESCENDANT SELECTOR */ */
+    /* this will select all p inside the article class */
+ 
+.article > p{
+    background-color: lightblue;
+    font-size: 70px;
+    ;
+}
+/* this will select all p inside the article class */
+
+/*SPECIFICITY
+    1. inline style (style="")
+    2. id selector (#id)
+    3. class selector (.class)
+    4. element selector (h1,p,ul,li,a) */
+/* 5. universal selector (*) */
+/* 6. attribute selector ([type="text"]) */
+/* 7. pseudo class selector (:hover,:visited) */
+/* 8. pseudo element selector (::before,::after) */
+/* 9. combinator selector (descendant,child,adjacent sibling, general sibling) */
+/* 10. important !important */
+/* 11. specificity hierarchy (inline style > id selector > class selector > element selector) */
+/* 12. specificity calculator (count the number of selectors in each category) */
+/* 13. specificity weight (inline style = 1000, id selector = 100, class selector = 10, element selector = 1) */
+/* 14. specificity conflict resolution (the selector with the highest specificity wins) */
+
+/* #heading{
+    background-color: blue;
+    font-size: 70px;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+} */
+
+/* .textbox .large{
+    background-color: lightblue;
+    font-size: 70px;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+} */
+
+/* div div .large{
+    background-color: lightblue;
+    font-size: 70px;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+} */
+
+div  div .large{
+    background-color: lightblue;
+    font-size: 70px;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+}
+
+INHERITANCE
+/* 1. inheritance is the process by which a child element inherits the styles of its parent element */
+/* 2. inheritance is used to apply the same styles to multiple elements without having to repeat the styles for each element */
+
+.hero-container{
+    background-color: rgb(31, 63, 45);
+    font-size: 70px;
+    color: rgb(179, 67, 67);
+    font-weight: 900;
+    text-align: center;
+}
+
+.cta-section{
+    text-align: center;
+
+}
+
+.footer{
+    text-align: center;
+
+}
+
+.general{
+    
+}
