@@ -19,11 +19,11 @@ h1 ~  p{
     DESCENDANT SELECTOR */ */
     /* this will select all p inside the article class */
  
-.article > p{
+/* .article > p{
     background-color: lightblue;
     font-size: 70px;
     ;
-}
+} */
 /* this will select all p inside the article class */
 
 /*SPECIFICITY
@@ -65,7 +65,7 @@ h1 ~  p{
     font-weight: 900;
     text-align: center;
 } */
-
+/* 
 div  div .large{
     background-color: lightblue;
     font-size: 70px;
@@ -74,11 +74,11 @@ div  div .large{
     text-align: center;
 }
 
-INHERITANCE
+INHERITANCE */
 /* 1. inheritance is the process by which a child element inherits the styles of its parent element */
 /* 2. inheritance is used to apply the same styles to multiple elements without having to repeat the styles for each element */
 
-.hero-container{
+/* .hero-container{
     background-color: rgb(31, 63, 45);
     font-size: 70px;
     color: rgb(179, 67, 67);
@@ -98,4 +98,26 @@ INHERITANCE
 
 .general{
     
+} 
+
+/* ------WIDTH AND HEIGHT--------- */
+/* 
+h1{
+    font-size: 32px;
+
+}
+p{
+    font-size: 32px;
+}
+img{
+    width: fit-content
+    
+} */
+
+/* ----------PADDING--------------- */
+
+div{
+    width: 500px;
+    height: 500px;
+    background-color: khaki;
 }
